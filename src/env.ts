@@ -1,0 +1,5 @@
+export const env = {
+  VITE_HUGGING_FACE_TOKEN: import.meta.env.VITE_HUGGING_FACE_TOKEN,
+  VITE_CLOUDINARY_PRESET: import.meta.env.VITE_CLOUDINARY_PRESET,
+  VITE_CLOUDINARY_CLOUD_NAME: import.meta.env.VITE_CLOUDINARY_CLOUD_NAME,
+} as const;
